@@ -2,7 +2,7 @@
 
 ![nginx](nginx.jpeg)
 
-A menudo, el Administrador de Sistemas recibe solicitudes para desplegar "Landing Pages" o webs temporales por parte de otros departamentos. Para ello, es necesaria la creación de dominios en Nginx, la gestión de permisos y su configuración técnica. En esta guía, vamos a ver paso a paso cómo configurar y administrar un servidor web desde los cimientos hasta la seguridad avanzada.
+A menudo, el Administrador de Sistemas recibe solicitudes para desplegar webs temporales por parte de otros departamentos. Para ello, es necesaria la creación de dominios en Nginx, la gestión de permisos y su configuración técnica. En esta guía, vamos a ver paso a paso cómo configurar y administrar un servidor web desde los cimientos hasta la seguridad avanzada.
 
 ## Paso 1: Montar el HomeLab 🔬
 
