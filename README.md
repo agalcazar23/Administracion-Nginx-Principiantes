@@ -7,7 +7,7 @@ A menudo, el Administrador de Sistemas recibe solicitudes para desplegar "Landin
 ## Paso 1: Montar el HomeLab 🔬
 
 
-Para esta práctica, vamos a utilizar un entorno controlado. En mi caso, el laboratorio se basa en VirtualBox corriendo una instancia de Ubuntu 24.04.
+Para esta práctica, vamos a utilizar un entorno controlado. En mi caso, el laboratorio se basa en VirtualBox corriendo una .ova de Ubuntu 24.04.
 
 
 ### Realizar Snapshot 📸
