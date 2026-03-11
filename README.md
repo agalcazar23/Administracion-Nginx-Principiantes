@@ -25,4 +25,4 @@ Un snapshot es como un punto de guardado que nos va capturar la configuración d
 **En proceso...**
 
 
-Paso 2: Instalación de herramientas básicas 🧰
+## Paso 2: Instalación de herramientas básicas 🧰
