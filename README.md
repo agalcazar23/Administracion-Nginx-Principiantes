@@ -28,3 +28,6 @@ Un snapshot es como un punto de guardado que nos va capturar la configuración d
 ## Paso 2: Instalación de herramientas básicas 🧰
 Como Administradores debemos tener varias herramientas básicas para trabajar cómodamente en la terminal.
 Estas herramientas básicas van a ser `nginx`, `curl`, `Net-Tools`, `htop`, `sed` y `tar`.
+
+
+Antes de la instalación, vamos a realizar un `apt update` y `apt upgrade` al ser una máquina nueva.
