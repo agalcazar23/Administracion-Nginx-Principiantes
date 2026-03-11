@@ -43,3 +43,11 @@ sudo ./InstalaciónBasica.sh
 
 
 ## Paso 3: Crear la web 🌐
+Para crear una web en Nginx primero necesitamos un sitio donde guardar los archivos de cada web. En linux se guardan dentro del directorio `/var/www`. Dentro de este directorio por defecto habrá una carpeta dentro llamada `/html` donde habrá un `index.html` generado automáticamente por Nginx con un mensaje de bienvenida.
+(Imagen)
+
+Para nuestro HomeLab vamos a ignorar la carpeta `/html` y vamos a crear una propia para nuestra web. En mi caso, la carpeta se llamará `web1`. 
+(Imagen)
+
+Dentro de nuestra carpeta crearemos un archivo llamado `index.html` (Nota: El archivo puede ser nombrado como uno desee mientras acabe en `.html`).
+Dentro de este archivo crearemos, en formato html, la página que queremos, en un entorno profesional, la información se te será proporcionada por la empresa, pero para esta práctica puedes poner algo sencillo o generar un html con IA.
