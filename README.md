@@ -1,4 +1,4 @@
-# Administracion de Nginx para Principiantes
+# Administracion de Nginx para Principiantes 🐧
 
 ![nginx](nginx.jpeg)
 
