@@ -50,4 +50,6 @@ Para nuestro HomeLab vamos a ignorar la carpeta `/html` y vamos a crear una prop
 (Imagen)
 
 Dentro de nuestra carpeta crearemos un archivo llamado `index.html` (Nota: El archivo puede ser nombrado como uno desee mientras acabe en `.html`).
-Dentro de este archivo crearemos, en formato html, la página que queremos, en un entorno profesional, la información se te será proporcionada por la empresa, pero para esta práctica puedes poner algo sencillo o generar un html con IA.
+
+
+Dentro de este archivo crearemos, en formato html, la página que queremos. En un entorno profesional, la información se te será proporcionada por la empresa, pero para esta práctica puedes poner algo sencillo o generar un html con IA.
