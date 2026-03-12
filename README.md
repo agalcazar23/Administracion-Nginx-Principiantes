@@ -77,7 +77,8 @@ sudo nano /etc/nginx/sites-available/web1
 Una vez estamos dentro con el nano, pega esto:
 
 ``` bash
-#
+# Archivo de configuración de nuestra web
+
 server {
     listen 80; # Puerto normal de internet (http)
     server_name empresaA.com; # EL NOMBRE DE LA WEB
