@@ -71,5 +71,5 @@ Dentro de este archivo crearemos, en formato `.html`, la página que queremos. E
 Nginx guarda sus configuraciones en `/etc/nginx/sites-available/`. Crea un archivo nuevo para la web. En mi caso:
 
 ``` bash
-sudo mkdir /etc/nginx/sites-available/web1
+sudo nano /etc/nginx/sites-available/web1
 ```
