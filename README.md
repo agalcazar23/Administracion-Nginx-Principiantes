@@ -94,7 +94,7 @@ server {
     index index.html;
 }
 ```
-> **NOTA**: Para esta práctica vamos a activar el puerto 80 que es el de http, es decir sitio no seguro, ya que el puerto 443 que es el de https nos va a poner un aviso molesto de advertencia cada vez que queramos entrar además de un mensaje de "sitio no seguro". Esto se soluciona activando una licencia que no vamos a activar para un HomeLab.
+> **NOTA**: Para esta práctica vamos a utilizar el puerto 80 (de HTTP) para simplificar la configuración. El puerto 443 (de HTTPS) requiere configurar un certificado SSL/TLS. Si se usa HTTPS sin un certificado válido, el navegador va a mostrar una advertencia indicando que el sitio no es seguro. En un HomeLab suele usarse HTTP para evitar esta configuración adicional.
 
 
 Para activar el sitio vamos a activar un acceso directo en la carpeta `sites-enabled`. Tras ello, reiniciamos el servicio para que lea los cambios. El comando de enlace simbólico `ln -s` es el método estándar y profesional de hacerlo.
