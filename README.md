@@ -53,6 +53,10 @@ Para crear una web en Nginx primero necesitamos un sitio donde guardar los archi
 Para nuestro HomeLab vamos a ignorar la carpeta `/html` y vamos a crear una propia para nuestra web. En mi caso, la carpeta se llamará web1. 
 (Imagen)
 
+``` bash
+sudo mdir /var/www/web1
+```
+
 
 ### Crear archivo web
 Dentro de nuestra carpeta crearemos un archivo llamado `index.html`.
