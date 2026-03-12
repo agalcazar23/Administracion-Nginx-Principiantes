@@ -115,7 +115,7 @@ Para activar el sitio vamos a activar un acceso directo en la carpeta `sites-ena
 ``` bash
 sudo ln -s /etc/nginx/sites-available/web1 /etc/nginx/sites-enabled/
 
-sudo sudo nginx -t
+sudo nginx -t
 
 sudo systemctl reload nginx
 ```
