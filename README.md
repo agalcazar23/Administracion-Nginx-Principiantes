@@ -4,7 +4,7 @@
 
 A menudo, el Administrador de Sistemas recibe solicitudes para desplegar webs temporales por parte de otros departamentos. Para ello, es necesaria la creación de dominios en Nginx, la gestión de permisos y su configuración técnica. En esta guía, vamos a ver paso a paso cómo configurar y administrar un servidor web desde los cimientos hasta la seguridad avanzada.
 
-Un Administrador de Sistemas profesional es capaz de automatizar todo esto para reducir tiempo. <u>Recuerda que si puedes hacer algo 2 veces, lo puedes automatizar.</u>
+Un Administrador de Sistemas profesional es capaz de automatizar todo esto para reducir tiempo. Recuerda que si puedes hacer algo 2 veces, lo puedes automatizar.
 
 ## Paso 1: Montar el HomeLab 🔬
 
@@ -94,7 +94,7 @@ server {
     index index.html;
 }
 ```
-> **NOTA**: Para esta práctica vamos a activar el puerto 80 que es el de http, es decir sitio no seguro, ya que el puerto 443 que es el de https nos va a poner un aviso molesto de advertencia cada vez que queramos entrar además de un mensaje de "sitio no seguro". Esto se soluciona activando una licencia que no vamos a activar para un HomeLab.
+[!TIP]> **NOTA**: Para esta práctica vamos a activar el puerto 80 que es el de http, es decir sitio no seguro, ya que el puerto 443 que es el de https nos va a poner un aviso molesto de advertencia cada vez que queramos entrar además de un mensaje de "sitio no seguro". Esto se soluciona activando una licencia que no vamos a activar para un HomeLab.
 
 
 Para activar el sitio vamos a activar un acceso directo en la carpeta `sites-enabled`. Tras ello, reiniciamos el servicio para que lea los cambios. El comando de enlace simbólico `ln -s` es el método estándar y profesional de hacerlo.
