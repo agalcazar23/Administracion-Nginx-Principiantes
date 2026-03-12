@@ -54,7 +54,8 @@ Para nuestro HomeLab vamos a ignorar la carpeta `/html` y vamos a crear una prop
 (Imagen)
 
 ``` bash
-sudo mdir /var/www/web1
+# Creamos nuestra carpeta
+sudo mkdir /var/www/web1
 ```
 
 
