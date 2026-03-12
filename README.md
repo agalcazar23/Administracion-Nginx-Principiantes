@@ -65,3 +65,11 @@ Dentro de nuestra carpeta crearemos un archivo llamado `index.html`.
 > **NOTA**: El archivo puede ser nombrado como uno desee mientras acabe en `.html`. Esto se debe a que Nginx, por configuración predeterminada, busca un archivo que se llame exactamente `index.html`.
 
 Dentro de este archivo crearemos, en formato `.html`, la página que queremos. En un entorno profesional, los desarrolladores son los que escriben el código y lo suben a un repositorio, pero para esta práctica puedes poner algo sencillo o generar un html con IA.
+
+
+### Configurar Nginx y activar la web
+Nginx guarda sus configuraciones en `/etc/nginx/sites-available/`. Crea un archivo nuevo para la web. En mi caso:
+
+``` bash
+sudo mkdir /etc/nginx/sites-available/web1
+```
