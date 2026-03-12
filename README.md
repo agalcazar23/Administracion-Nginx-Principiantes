@@ -86,3 +86,4 @@ server {
     index index.html;
 }
 ```
+> **NOTA**: Para esta práctica vamos a activar el puerto 80 que es el de http, es decir sitio no seguro, ya que el puerto 443 que es el de https nos va a poner un aviso molesto de advertencia cada vez que queramos entrar además de un mensaje de "sitio no seguro". Esto se soluciona activando una licencia que no vamos a activar para un HomeLab.
