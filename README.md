@@ -97,7 +97,7 @@ sudo ln -s /etc/nginx/sites-available/web1 /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 
-### El archivo `/etc/hosts`.
+### El archivo `/etc/hosts`
 Como web1.com no existe de verdad en internet, tu navegador no sabrá dónde ir. Para ello vamos a indicarle en el archivo `/etc/hosts` nuestra IP junto al nombre de la web.
 
 ``` bash
@@ -109,4 +109,5 @@ Como web1.com no existe de verdad en internet, tu navegador no sabrá dónde ir.
 ¡Enhorabuena! Una vez terminado este proceso, abre un navegador y escribe `http://web1.com` (o el nombre que le hayas dado a la web) y se abrirá tu web con el diseño que hayas puesto.
 
 
+### LO MAS IMPORTANTE
 Como ya quizá habrás pensado. Este proceso es fácilmente automatizable, por lo que, como buenos administradores, vamos a usar un script para automatizar todo este proceso. El script está explicado en otro repositorio mío.
