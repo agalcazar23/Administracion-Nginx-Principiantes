@@ -46,7 +46,7 @@ sudo ./InstalaciónBasica.sh
 ### La ruta `/var/www`
 
 
-Para crear una web en Nginx primero necesitamos un sitio donde guardar los archivos de cada web. En linux se guardan dentro del directorio `/var/www`. Dentro de este directorio, por defecto habrá una carpeta dentro llamada `/html` que tendrá un archivo `index.html`  con un mensaje de bienvenida generado automáticamente por Nginx.
+Para crear una web en Nginx primero necesitamos un sitio donde guardar los archivos de cada web. En linux se guardan dentro del directorio `/var/www`. Dentro de este directorio, por defecto habrá una carpeta llamada `/html` que contendrá un archivo `index.html`  con un mensaje de bienvenida generado automáticamente por Nginx.
 (Imagen)
 
 ### Olvidar `/var/www/html`
