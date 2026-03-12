@@ -96,8 +96,9 @@ Para activar el sitio vamos a activar un acceso directo en la carpeta `sites-ena
 ``` bash
 sudo ln -s /etc/nginx/sites-available/web1 /etc/nginx/sites-enabled/
 
-sudo systemctl restart nginx
+sudo systemctl reload nginx
 ```
+> **¿Por qué `reload` y no `restart`**: Restart apaga y enciende el servicio mientras que reload solo recarga la configuración sin desconectar a los usuarios que estén viendo la web. Esto último es mejor si queremos editar algo mientras la web está funcionando.
 
 ### El archivo `/etc/hosts`
 Como web1.com no existe de verdad en internet, tu navegador no sabrá dónde ir. Para ello vamos a indicarle en el archivo `/etc/hosts` nuestra IP junto al nombre de la web. De esta manera podremos hacer que la página funcionará en esta máquina.
