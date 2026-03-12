@@ -109,7 +109,7 @@ Como web1.com no existe de verdad en internet, tu navegador no sabrá dónde ir.
 ¡Enhorabuena! Una vez terminado este proceso, abre un navegador y escribe `http://web1.com` (o el nombre que le hayas dado a la web) y se abrirá tu web con el diseño que hayas puesto.
 
 
-### LO MAS IMPORTANTE
-Como ya quizá habrás pensado. Este proceso es fácilmente automatizable, por lo que, como buenos administradores, vamos a usar un script para <mark>automatizar</mark> todo este proceso. El script está explicado en otro repositorio mío: [Script automatización web](https://github.com/agalcazar23/Script-Dominios-Nginx)
+### <mark>LO MAS IMPORTANTE</mark>
+Como ya quizá habrás pensado. Este proceso es fácilmente automatizable, por lo que, como buenos administradores, vamos a usar un script para automatizar todo este proceso. El script está explicado en otro repositorio mío: [Script automatización web](https://github.com/agalcazar23/Script-Dominios-Nginx)
 
 ## Paso 4: Hardening 🛡️
