@@ -72,7 +72,7 @@ sudo mkdir /var/www/web1
 Dentro de nuestra carpeta crearemos un archivo llamado `index.html`.
 
 ``` bash
-sudo nano /etc/nginx/web1/index.html
+sudo nano /var/www/web1/index.html
 ```
 
 > **NOTA**: El archivo puede ser nombrado como uno desee mientras acabe en `.html`. Esto se debe a que Nginx, por configuración predeterminada, busca un archivo que se llame exactamente `index.html`.
