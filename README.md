@@ -73,3 +73,15 @@ Nginx guarda sus configuraciones en `/etc/nginx/sites-available/`. Crea un archi
 ``` bash
 sudo nano /etc/nginx/sites-available/web1
 ```
+
+Una vez estamos dentro con el nano, pega esto:
+
+``` bash
+#
+server {
+    listen 80; # Puerto normal de internet (http)
+    server_name empresaA.com; # EL NOMBRE DE LA WEB
+    root /var/www/empresaA;   # LA CARPETA DONDE ESTÁ LA WEB
+    index index.html;
+}
+```
