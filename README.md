@@ -87,3 +87,21 @@ server {
 }
 ```
 > **NOTA**: Para esta práctica vamos a activar el puerto 80 que es el de http, es decir sitio no seguro, ya que el puerto 443 que es el de https nos va a poner un aviso molesto de advertencia cada vez que queramos entrar además de un mensaje de "sitio no seguro". Esto se soluciona activando una licencia que no vamos a activar para un HomeLab.
+
+
+Para activar el sitio vamos a activar un acceso directo en la carpeta `sites-enabled`. Tras ello, reiniciamos el servicio para que lea los cambios.
+
+``` bash
+sudo ln -s /etc/nginx/sites-available/web1 /etc/nginx/sites-enabled/
+
+sudo systemctl restart nginx
+```
+
+### El archivo `/etc/hosts`.
+Como web1.com no existe de verdad en internet, tu navegador no sabrá dónde ir. Para ello vamos a indicarle en el archivo `/etc/hosts` nuestra IP junto al nombre de la web.
+
+``` bash
+# Escribe al final esta línea con tu IP y el nombre
+
+192.168.1.XX web1.com
+```
