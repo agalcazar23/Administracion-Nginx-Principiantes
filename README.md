@@ -55,6 +55,7 @@ Para nuestro HomeLab vamos a ignorar la carpeta `/html` y vamos a crear una prop
 
 ``` bash
 # Creamos nuestra carpeta
+
 sudo mkdir /var/www/web1
 ```
 
