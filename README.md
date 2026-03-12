@@ -4,7 +4,7 @@
 
 A menudo, el Administrador de Sistemas recibe solicitudes para desplegar webs temporales por parte de otros departamentos. Para ello, es necesaria la creación de dominios en Nginx, la gestión de permisos y su configuración técnica. En esta guía, vamos a ver paso a paso cómo configurar y administrar un servidor web desde los cimientos hasta la seguridad avanzada.
 
-Un Administrador de Sistemas profesional es capaz de automatizar todo esto para reducir tiempo. Recuerda que si puedes hacer algo 2 veces, lo puedes automatizar.
+Un Administrador de Sistemas profesional es capaz de automatizar todo esto para reducir tiempo. <u>Recuerda que si puedes hacer algo 2 veces, lo puedes automatizar.</u>
 
 ## Paso 1: Montar el HomeLab 🔬
 
@@ -31,6 +31,12 @@ Un snapshot es como un punto de guardado que nos va capturar la configuración d
 Como Administradores debemos tener varias herramientas básicas para trabajar cómodamente en la terminal.
 Estas herramientas básicas van a ser `nginx`, `curl`, `Net-Tools`, `htop`, `sed` y `tar`.
 
+* NGINX → servidor web
+* curl → probar peticiones HTTP
+* htop → monitor de procesos
+* net-tools → herramientas de red
+* sed → edición de texto
+* tar → compresión
 
 Antes de la instalación, al ser una máquina nueva debemos realizar un `apt update` y `apt upgrade` para asegurarnos de que todo funcione correctamente.
 
