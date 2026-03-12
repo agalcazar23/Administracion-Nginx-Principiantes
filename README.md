@@ -79,11 +79,13 @@ sudo nano /etc/nginx/sites-available/web1
 
 Dentro de este archivo crearemos, en formato `.html`, la página que queremos. En un entorno profesional, los desarrolladores son los que escriben el código y lo suben a un repositorio, pero para esta práctica puedes poner algo sencillo o generar un html con IA.
 ### Configurar permisos de la web
-Para que el servidor web pueda leer los archivos correctamente, debemos asignar la carpeta al usuario que utiliza Nginx.
+Para que el servidor web pueda leer los archivos correctamente, debemos asignar la carpeta al usuario que utiliza Nginx.  `chmod 755` da permisos al propietario para leer, escribir, ejecutar. Al resto únicamente de ejecución y lectura.
 
 ``` bash
+# Asignar permisos
+
 sudo chown -R www-data:www-data /var/www/web1
-sudo chmod -R 755 /var/www/web1 # chmod 755 da permisos al propietario para leer, escribir, ejecutar. Al resto únicamente de ejecución y lectura.
+sudo chmod -R 755 /var/www/web1
 ```
 
 ### Configurar Nginx y activar la web
@@ -108,10 +110,12 @@ server {
 > **NOTA**: Para esta práctica vamos a utilizar el puerto 80 (de HTTP) para simplificar la configuración. El puerto 443 (de HTTPS) requiere configurar un certificado SSL/TLS. Si se usa HTTPS sin un certificado válido, el navegador va a mostrar una advertencia indicando que el sitio no es seguro. En un HomeLab suele usarse HTTP para evitar esta configuración adicional.
 
 
-Para activar el sitio vamos a activar un acceso directo en la carpeta `sites-enabled`. Tras ello, reiniciamos el servicio para que lea los cambios. El comando de enlace simbólico `ln -s` es el método estándar y profesional de hacerlo.
+Para activar el sitio vamos a activar un acceso directo en la carpeta `sites-enabled`. El comando de enlace simbólico `ln -s` es el método estándar y profesional de hacerlo. Antes de recargarlo ejecuta siempre `sudo nginx -t` para comprobar que la configuración no tiene errores. Tras ello, reiniciamos el servicio para que lea los cambios.
 
 ``` bash
 sudo ln -s /etc/nginx/sites-available/web1 /etc/nginx/sites-enabled/
+
+sudo sudo nginx -t
 
 sudo systemctl reload nginx
 ```
