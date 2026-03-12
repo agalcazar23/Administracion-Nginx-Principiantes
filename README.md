@@ -105,3 +105,5 @@ Como web1.com no existe de verdad en internet, tu navegador no sabrá dónde ir.
 
 192.168.1.XX web1.com
 ```
+
+¡Enhorabuena! Una vez terminado este proceso, abre un navegador y escribe `http://web1.com` (o el nombre que le hayas dado a la web) y se abrirá tu web con el diseño que hayas puesto.
