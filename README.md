@@ -110,4 +110,4 @@ Como web1.com no existe de verdad en internet, tu navegador no sabrá dónde ir.
 
 
 ### LO MAS IMPORTANTE
-Como ya quizá habrás pensado. Este proceso es fácilmente automatizable, por lo que, como buenos administradores, vamos a usar un script para automatizar todo este proceso. El script está explicado en otro repositorio mío.
+Como ya quizá habrás pensado. Este proceso es fácilmente automatizable, por lo que, como buenos administradores, vamos a usar un script para automatizar todo este proceso. El script está explicado en otro repositorio mío: [Script automatización web](https://github.com/agalcazar23/Script-Dominios-Nginx)
