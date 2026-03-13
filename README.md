@@ -137,7 +137,7 @@ Como web1.com no existe de verdad en internet, tu navegador no sabrá dónde ir.
 Como ya quizá habrás pensado. Este proceso es fácilmente automatizable, por lo que, como buenos administradores, vamos a usar un script para automatizar todo este proceso. El script está explicado en otro repositorio mío: [Script automatización web](https://github.com/agalcazar23/Script-Dominios-Nginx)
 
 ## Paso 4: Hardening 🛡️
-### Obscurity
+### Obscurity 🪪
 Cuando Nginx responde a una petición o da un error, incluye una cabecera llamada Server en la que pone: nginx/1.24.0 (Ubuntu). Esta cabecer puede encontrarse al ejecutar el comando `curl -I localhost`. Los hackers pueden aprovecharse de esto para buscar vulnerabilidades de la versión de específico que estás usando.
 
 Para proteger esa información, debemos ocultar la versión. Esto provocará que los atacantes tengan que probar ataques a ciegas, lo que generará más ruido en el sistema y te será más fácil detectarlos.
