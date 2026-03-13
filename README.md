@@ -158,3 +158,6 @@ Una vez realizado este cambio, si vuelves a ejecutar el comando `curl -I localho
 
 Un ataque de DoS (Denegación de Servicio) busca agotar los recursos del equipo como la CPU, RAM o conexiones enviando miles de peticiones falsas. Es una práctica fácilmente ejecutable mediante scripts.
 
+Para proteger nuestra web de estos ataques, vamos a definir una zona de 10MB que permite 5 peticiones por segundo por IP. Entraremos en `/etc/nginx/nginx.conf`. Si te das cuenta, hay una organización clara dentro de este archivo. Por ejemplo, hay un apartado para `# Basic Settings`, `# SSL Settings`, `# Logging Settings`, etc.
+
+Como administradores necesitamos ser organizados, aunque solo nosotros veamos estos archivos, así que vamos a escribir
