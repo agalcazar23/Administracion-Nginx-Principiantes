@@ -138,10 +138,10 @@ Como ya quizá habrás pensado. Este proceso es fácilmente automatizable, por l
 
 ## Paso 4: Hardening 🛡️
 ### Obscurity 🪪
-Cuando Nginx responde a una petición o da un error, incluye una cabecera llamada Server en la que pone: nginx/1.24.0 (Ubuntu). Esta cabecer puede encontrarse al ejecutar el comando `curl -I localhost`. Los hackers pueden aprovecharse de esto para buscar vulnerabilidades de la versión de específico que estás usando.
+Cuando Nginx responde a una petición o da un error, incluye una cabecera llamada Server en la que pone: `nginx/1.24.0 (Ubuntu)`. Esta cabecera puede encontrarse al ejecutar el comando `curl -I localhost`. Los hackers pueden aprovecharse de esto para buscar vulnerabilidades de la versión de específico que estás usando.
 
 Para proteger esa información, debemos ocultar la versión. Esto provocará que los atacantes tengan que probar ataques a ciegas, lo que generará más ruido en el sistema y te será más fácil detectarlos.
 
-Vamos a configurar el archivo `/etc/nginx/nginx.conf`, dentro del bloque `http {}` desactivaremos los `server_tokens`. Como vemos, la opción está desabilitada al tener la almohadilla delante.
+Vamos a configurar el archivo `/etc/nginx/nginx.conf`, dentro del bloque `http {}` desactivaremos los `server_tokens`. Por defecto, la opción está desabilitada al tener la almohadilla delante.
 (Imagen).
 > **NOTA**: Es recomendable dejar la primera línea original con una almohadilla y justo debajo dejar tu cambio, por si quieres volver a cambiar esto en el futuro y consultar como estaba antes.
